@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+@font-face{
+
+    font-family: gilroy;
+    src: url('./Gilroy\ Font/Gilroy-Regular.ttf');
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    width: 100%;
+    padding:40px 30px;
+    font-family: gilroy;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+}
+#right-nav{
+    display: flex;
+    width:35%;
+    justify-content: space-between;
+}
+#rght-h2>span{
+ padding-left: 20px;
+    
+}
+#left-nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+#left-nav>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#heading{
+    margin-top: 90px;
+    font-size: 30px;
+}
+#sub-heading{
+    margin-top: 20px;
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: -7px;
+    margin-bottom: 150px;
+}
+#case{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+
+}
+#case-hdn,#case-rght{
+    font-size: 20px;
+}
+#case-rght{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+#line{
+    width:100px;
+    border-top:2px solid;
+}
+
+#projects{
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    margin-top: 30px;
+}
+
+#info{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#elem>img{
+    border-radius: 30px;
+    width:700px;
+    height: 600px;
+    object-fit: cover;
+}
+#info>div>button{
+    font-size: 20px;
+    padding:15px 25px;
+    border-radius: 30px;
+    background:#fff;
+}
+
+#info>div>button:hover{
+    background-color: #000;
+    color: #fff;
+}
